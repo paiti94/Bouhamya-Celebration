@@ -22,7 +22,7 @@ body {
   margin-top: 20%;
   border-radius: 10px;
   background-color: #ffffff;
-  background: url('assets/images/blue1.png') no-repeat center center;
+  background: url('assets/images/background.png') no-repeat center center;
   background-size: cover;
   display: flex;
   overflow: hidden;
