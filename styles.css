@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
   font-family: 'Great Vibes';
   display: flex;
@@ -12,6 +13,19 @@ body {
   letter-spacing: 1px;
 }
 
+.timeline-container {
+    width: 50%;
+    margin-top: 39%;
+    /* background: white; */
+    padding: 30px;
+    position: relative;
+}
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
 .ticket {
   width: 90%; 
   max-width: 800px;
@@ -19,7 +33,7 @@ body {
   height: auto;
   /* border: 2px solid #5da4cd; */
   margin-bottom: 30vh;
-  margin-top: 20%;
+  margin-top: 10%;
   border-radius: 10px;
   background-color: #ffffff;
   background: url('assets/images/background.png') no-repeat center center;
@@ -159,8 +173,8 @@ hr{
   text-align: center; 
   font-family: 'addingtoncf-thin', georgia, serif;
   font-size: 1rem;
-  margin-top: 45%;
-  margin-bottom: 10%;
+  margin-top: 20%;
+  /* margin-bottom: 10%; */
   color: #353b3e;
   letter-spacing: 1.4px;
   opacity: 0;
@@ -229,5 +243,12 @@ hr{
   .right-section{
     border-right: none;
     border-bottom: none; 
+  }
+
+  
+  .event {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
   }
 }
