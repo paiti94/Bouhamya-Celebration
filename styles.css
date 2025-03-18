@@ -14,12 +14,23 @@ body {
 }
 
 .timeline-container {
-    width: 50%;
-    margin-top: 39%;
-    /* background: white; */
+    width: 90%;
+    margin: 39% auto 0;
     padding: 30px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.timeline-container img {
+    width: 120%;
+    max-width: 1200px;
+    margin: 0 -10%;
+    height: auto;
+    display: block;
+}
+
 .title {
     font-family: 'Great Vibes', cursive;
     font-size: 32px;
