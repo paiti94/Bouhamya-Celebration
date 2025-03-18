@@ -23,12 +23,16 @@ body {
     align-items: center;
 }
 
-.timeline-container img {
+/* .timeline-container img {
     width: 120%;
     max-width: 1200px;
     margin: 0 -10%;
     height: auto;
     display: block;
+} */
+
+.timeline-image{
+  width: 70%;
 }
 
 .title {
@@ -261,5 +265,9 @@ hr{
     flex-direction: column;
     text-align: center;
     gap: 10px;
+  }
+
+  .timeline-image{
+    width: 100%;
   }
 }
